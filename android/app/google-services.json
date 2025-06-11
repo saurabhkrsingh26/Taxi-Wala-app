@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "760032025208",
+    "project_id": "taxiwala-32b57",
+    "storage_bucket": "taxiwala-32b57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760032025208:android:0158aa077c3c60efa12b8d",
+        "android_client_info": {
+          "package_name": "com.foundercodes.taxiwalauser"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1rSaPcYrjkAY-_DYCp4jfskbD83tBgx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+name: taxiwala
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.1+2
+
+environment:
+  sdk: '>=3.2.1 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  intl: ^0.19.0
+  five_pointed_star: ^1.0.3
+  sliding_up_panel: ^2.0.0+1
+  flutter_switch: ^0.3.2
+  cupertino_icons: ^1.0.6
+  geolocator: ^10.1.0
+  google_maps_flutter:
+  geocoding: ^2.1.1
+  carousel_slider: ^4.2.1
+  location: ^5.0.3
+  flutter_google_places: ^0.3.0
+  flutter_polyline_points: 1.0.0
+  get: ^4.6.6
+  chat_bubbles: ^0.8.1
+  image_picker: ^1.0.7
+  flutter_widget_from_html: ^0.14.11
+  flutter_lints: ^3.0.1
+  fluttertoast: ^8.2.4
+  shared_preferences: ^2.2.2
+  provider: ^6.1.1
+  http: ^0.13.1
+  uuid: ^4.3.3
+  url_launcher: ^6.2.5
+
+
+dev_dependencies:
+#  some_dev_dependency:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+    - assets/
+    - assets/font/
+    - lib/generated/assets.dart
+    - assets/gif/
+    - assets/json/
+
+
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/font/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/font/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/font/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/font/Roboto-Black.ttf
+          weight: 900
+
+
+
+
